@@ -1,9 +1,9 @@
 {
-    "Index": {
-      "title": "Hallo mensen"
-    },
-    "NotFound": {
-      "title": "Pagina niet gevonden"
-    }
+  "Index": {
+    "about": "Über uns",
+    "stosol": "Lösungen für die Lagerung",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "register": "Konto eröffnen"
   }
-  
+}

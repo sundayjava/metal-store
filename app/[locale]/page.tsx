@@ -1,18 +1,18 @@
 "use client";
 
-import AndroidSideBar from "@/components/dashboard/AndroidSideBar";
-import DashBoardNavBar from "@/components/dashboard/DashBoardNavBar";
-import CustomDropDown from "@/components/global/CurrencyDropdown";
-import LocalSwitcher from "@/components/global/local-switcher";
+import AndroidSideBar from "@/app/[locale]/_component/dashboard/AndroidSideBar";
+import DashBoardNavBar from "@/app/[locale]/_component/dashboard/DashBoardNavBar";
 import { useMediaQuery } from "@mui/material";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 export default function Dashboard() {
-  // const t = useTranslations("Index");
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const isNonMobile = useMediaQuery("(min-width: 769px)");
+  const t = useTranslations('Index')
 
+  console.log(t.name)
+  
   return (
     <div>
       <AndroidSideBar
@@ -27,14 +27,9 @@ export default function Dashboard() {
           setIsSidebarOpen={setIsSidebarOpen}
         />
         <div className="flex-grow">
-          <div className="container"></div>
+          <div className="container">{t('about')}</div>
         </div>
       </div>
     </div>
-    // <div className="bg-gray-300">
-    //   <h1>{t("title")}</h1>
-    //   <LocalSwitcher />
-    //   <CustomDropDown/>
-    // </div>
   );
 }

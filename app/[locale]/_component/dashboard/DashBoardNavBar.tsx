@@ -6,12 +6,13 @@ import { useRef, useEffect, useState } from "react";
 import { appName, currency } from "@/utils/constants";
 import { ArrowDropUp, Call } from "@mui/icons-material";
 import Image from "next/image";
-import logo from "../../public/dashboard/logo.png";
+import logo from "../../../../public/dashboard/logo.png";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import LocalSwitcher from "../global/local-switcher";
 import MenuIcon from "@mui/icons-material/Menu";
 import { AppBar, IconButton, Toolbar } from "@mui/material";
 import CurrencyDropdown from "../global/CurrencyDropdown";
+import { useTranslations } from "next-intl";
 
 export default function DashBoardNavBar(props: {
   isSidebarOpen: any;
@@ -20,6 +21,7 @@ export default function DashBoardNavBar(props: {
   const headerRef = useRef<HTMLDivElement>(null);
   const [openMegaMenu, setOpenMegaMenu] = useState(false);
   const [isOpenNav, setIsOpenNav] = useState(false);
+  const t = useTranslations("Index");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -101,7 +103,7 @@ export default function DashBoardNavBar(props: {
                   className="object-contain"
                 />
               </div>
-              <p className="text-sm cursor-pointer hover:text-white/60">
+              <p className="lg:text-sm text-[12px] cursor-pointer hover:text-white/60">
                 {appName}
               </p>
               <p className="text-[14px] lg:block hidden mx-7 text-white">
@@ -109,7 +111,7 @@ export default function DashBoardNavBar(props: {
               </p>
               <CurrencyDropdown />
             </div>
-            <div className="flex gap-5 items-center text-[14px] leading-3">
+            <div className="flex lg:gap-5 gap-3 items-center text-[14px] leading-3">
               {navData.map((item) => (
                 <button
                   key={item.id}
@@ -121,7 +123,7 @@ export default function DashBoardNavBar(props: {
               <div className="flex gap-5">
                 <LocalSwitcher />
                 <button className="hover:text-accent text-[14px]">
-                  Sign in
+                  {t("login")}
                 </button>
                 <button className="border text-[14px] hover:bg-accent hover:text-primary rounded-md md:px-3 px-1 md:py-1 py-[2px]">
                   Open an account
@@ -137,7 +139,7 @@ export default function DashBoardNavBar(props: {
             <div className="">
               <div className="flex">
                 <nav className={isOpenNav === true ? "open" : ""}>
-                  <ul className="list-none flex mb-3 gap-10 items-center">
+                  <ul className="list-none flex mb-3 gap-5 items-center">
                     {category.map((item) => (
                       <li key={item.id}>
                         <button className="text-white/80 hover:bg-accent/20 text-[14px] leading-[18px] font-bold rounded-lg uppercase">
@@ -178,11 +180,11 @@ export default function DashBoardNavBar(props: {
                 </nav>
               </div>
             </div>
-            <div className="flex gap-10">
+            <div className="flex gap-5">
               <div className="rounded-md">
                 <div className="flex bg-white">
                   <input
-                    className="appearance-none block w-full px-3 bg-transparent outline-none border-none text-[14px] me-2"
+                    className="appearance-none block w-full px-3 bg-transparent text-secondary outline-none border-none text-[14px] me-2"
                     type="search"
                     placeholder="Search"
                     aria-labelledby="Search"
@@ -252,7 +254,7 @@ export default function DashBoardNavBar(props: {
         <div className="rounded-md w-full">
           <div className="flex bg-white">
             <input
-              className="appearance-none block w-full px-3 bg-transparent outline-none border-none text-[14px] me-2"
+              className="appearance-none text-secondary block w-full px-3 bg-transparent outline-none border-none text-[14px] me-2"
               type="search"
               placeholder="Search"
               aria-labelledby="Search"

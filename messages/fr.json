@@ -1,9 +1,9 @@
 {
-    "Index": {
-      "title": "Salut tout le monde"
-    },
-    "NotFound": {
-      "title": "Page non trouvée"
-    }
+  "Index": {
+      "about": "À propos de nous",
+      "stosol": "Solution de stockage",
+      "pricing": "Tarification",
+      "login": "Se connecter",
+      "register": "Ouvrir un compte"
   }
-  
+}

@@ -1,9 +1,10 @@
 {
     "Index": {
-      "title": "Hello world"
-    },
-    "NotFound": {
-      "title": "Page not found"
+      "about": "About us",
+      "stosol": "Storage solution",
+      "pricing": "Pricing",
+      "login": "Sign in",
+      "register": "Open an account"
     }
   }
   

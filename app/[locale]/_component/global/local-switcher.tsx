@@ -28,7 +28,7 @@ const languages = [
     flag: "https://th.bing.com/th/id/OIP.RkNnol5HjKVm1HTZxkcpeAHaEc?rs=1&pid=ImgDetMain",
   },
   {
-    code: "it",
+    code: "ita",
     name: "Italiano",
     flag: "https://th.bing.com/th/id/R.4c0ff315b66f5c382898c7989a436a57?rik=J14uIMj1S8NxGA&pid=ImgRaw&r=0",
   },
