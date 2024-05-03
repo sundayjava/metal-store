@@ -12,6 +12,7 @@ const config: Config = {
         primary: "#232F3E",
         secondary: "#131921",
         accent: "#FFC940",
+        deem:'#529FAC'
       },
       container: {
         center: true,
@@ -27,7 +28,7 @@ const config: Config = {
         ember: ["Amazon Ember", "sans-serif"],
       },
       fontSize: {
-        sm: ["clamp(1.00rem, calc(0.92rem + 0.39vw), 1.20rem)", "1.4"],
+        sm: ["clamp(0.80rem, calc(0.52rem + 0.19vw), 0.80rem)", "1.2"],
         md: ["clamp(1.13rem, calc(0.98rem + 0.73vw), 1.50rem)", "1.5"],
         lg: ["clamp(1.27rem, calc(1.03rem + 1.19vw), 1.88rem)", "1.4"],
         xl: ["clamp(1.42rem, calc(1.06rem + 1.86vw), 2.34rem)", "1.4"],

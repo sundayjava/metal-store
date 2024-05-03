@@ -1,4 +1,4 @@
-import { currency } from "@/utils/constants";
+import { useCurrency } from "@/context/CurrencyContext";
 import {
   Box,
   FormControl,
@@ -6,33 +6,20 @@ import {
   MenuItem,
   SelectChangeEvent,
 } from "@mui/material";
-import React, { useState } from "react";
 
 const currencyData = [
-  {
-    code: "eur",
-    flag: "€",
-  },
-  {
-    code: "chf",
-    flag: "₮",
-  },
-  {
-    code: "usd",
-    flag: "$",
-  },
-  {
-    code: "gbp",
-    flag: "£",
-  },
+  { code: "eur", flag: "€" },
+  { code: "chf", flag: "₮" },
+  { code: "usd", flag: "$" },
+  { code: "gbp", flag: "£" },
 ];
 
 export default function CurrencyDropdown() {
-  const [currency, setCurrency] = useState("eur");
+const {currency, setCurrency} = useCurrency()
 
-  const handleChangeCurrency = (event: SelectChangeEvent) => {
-    setCurrency(event.target.value as string);
-  };
+const handleChangeCurrency = (event: SelectChangeEvent) => {
+  setCurrency(event.target.value as string);
+};
 
   return (
     <div>
@@ -44,7 +31,12 @@ export default function CurrencyDropdown() {
           marginRight: "10px",
         }}
       >
-        <FormControl fullWidth variant="standard" style={{borderBottom:'0px', textDecoration:'none'}} sx={{ border: "none", color: "white" }}>
+        <FormControl
+          fullWidth
+          variant="standard"
+          style={{ borderBottom: "0px", textDecoration: "none" }}
+          sx={{ border: "none", color: "white" }}
+        >
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
@@ -60,13 +52,13 @@ export default function CurrencyDropdown() {
           >
             {currencyData.map((item) => (
               <MenuItem
-              key={item.code}
+                key={item.code}
                 value={item.code}
                 sx={{
                   textTransform: "uppercase",
                   display: "flex",
                   paddingY: 1,
-                  paddingX:2,
+                  paddingX: 2,
                   alignItems: "center",
                 }}
               >

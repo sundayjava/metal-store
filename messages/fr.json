@@ -1,9 +1,25 @@
 {
   "Index": {
-      "about": "À propos de nous",
-      "stosol": "Solution de stockage",
-      "pricing": "Tarification",
-      "login": "Se connecter",
-      "register": "Ouvrir un compte"
+    "about": "À propos de nous",
+    "stosol": "Solution de stockage",
+    "pricing": "Tarification",
+    "login": "Se connecter",
+    "register": "Ouvrir un compte"
+  },
+  "Footer": {
+    "topp": "HAUT DE PAGE", 
+    "sub": "ABONNEZ-VOUS à la newsletter WARET GOLD pour rester informé de nos offres spéciales",
+    "official": "Revendeur en ligne officiel du groupe MKS PAMP",
+    "pay": "Méthodes de paiement",
+    "tf": "Virement bancaire",
+    "btc": "Bitcoin",
+    "deli": "Livraison",
+    "genc": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "imp": "Impression",
+    "cright": "Tous droits réservés"
+  },
+  "Cart":{
+    "title":"ajouter au panier"
   }
 }

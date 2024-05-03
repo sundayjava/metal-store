@@ -5,5 +5,21 @@
     "pricing": "Prezzi",
     "login": "Accedi",
     "register": "Apri un account"
+  }, 
+  "Footer": {
+    "topp": "IN ALTO ALLA PAGINA",
+    "sub": "ISCRIVITI alla newsletter WARET GOLD per rimanere informato sulle nostre offerte speciali",
+    "official": "Rivenditore online ufficiale del GRUPPO MKS PAMP",
+    "pay": "Metodi di Pagamento",
+    "tf": "Bonifico Bancario",
+    "btc": "Bitcoin",
+    "deli": "Consegna",
+    "genc": "Condizioni Generali",
+    "privacy": "Politica sulla Privacy",
+    "imp": "Impressione",
+    "cright": "Tutti i Diritti Riservati"
+  },
+  "Cart":{
+    "title":"aggiungi al carrello"
   }
 }

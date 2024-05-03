@@ -5,5 +5,21 @@
     "pricing": "Preise",
     "login": "Anmelden",
     "register": "Konto eröffnen"
+  },
+  "Footer": { 
+    "topp": "OBEN ZUR SEITE",
+    "sub": "ABONNIEREN SIE DEN WARET GOLD-NEWSLETTER, UM ÜBER UNSERE SPEZIALANGEBOTE INFORMIERT ZU BLEIBEN",
+    "official": "Offizieller MKS PAMP GROUP Online-Händler",
+    "pay": "Zahlungsmethoden",
+    "tf": "Banküberweisung",
+    "btc": "Bitcoin",
+    "deli": "Lieferung",
+    "genc": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzbestimmungen",
+    "imp": "Impressum",
+    "cright": "Alle Rechte vorbehalten"
+  },
+  "Cart":{
+    "title":"In den Warenkorb legen"
   }
 }

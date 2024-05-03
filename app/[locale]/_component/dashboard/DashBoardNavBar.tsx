@@ -3,7 +3,7 @@
 import { category, metals, navData } from "@/utils/data";
 import "./dashboard.css";
 import { useRef, useEffect, useState } from "react";
-import { appName, currency } from "@/utils/constants";
+import { appName } from "@/utils/constants";
 import { ArrowDropUp, Call } from "@mui/icons-material";
 import Image from "next/image";
 import logo from "../../../../public/dashboard/logo.png";
@@ -13,6 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { AppBar, IconButton, Toolbar } from "@mui/material";
 import CurrencyDropdown from "../global/CurrencyDropdown";
 import { useTranslations } from "next-intl";
+import { useCurrency } from "@/context/CurrencyContext";
 
 export default function DashBoardNavBar(props: {
   isSidebarOpen: any;
@@ -21,6 +22,7 @@ export default function DashBoardNavBar(props: {
   const headerRef = useRef<HTMLDivElement>(null);
   const [openMegaMenu, setOpenMegaMenu] = useState(false);
   const [isOpenNav, setIsOpenNav] = useState(false);
+  const { currency } = useCurrency();
   const t = useTranslations("Index");
 
   useEffect(() => {
@@ -68,7 +70,14 @@ export default function DashBoardNavBar(props: {
                   key={metal.id}
                   className="cursor-pointer uppercase hover:text-white"
                 >
-                  {metal.value} {currency}
+                  {metal.value}{" "}
+                  {currency === "eur"
+                    ? "€"
+                    : currency === "chf"
+                    ? "₮"
+                    : currency === "usd"
+                    ? "$"
+                    : "£"}
                   {metal.value === "gold"
                     ? (23221.7).toLocaleString()
                     : metal.value === "silver"
@@ -112,21 +121,22 @@ export default function DashBoardNavBar(props: {
               <CurrencyDropdown />
             </div>
             <div className="flex lg:gap-5 gap-3 items-center text-[14px] leading-3">
-              {navData.map((item) => (
-                <button
-                  key={item.id}
-                  className="hover-border hover:text-accent"
-                >
-                  {item.value}
-                </button>
-              ))}
+              <button className="hover-border hover:text-accent">
+                {t("about")}
+              </button>
+              <button className="hover-border hover:text-accent">
+                {t("stosol")}
+              </button>
+              <button className="hover-border hover:text-accent">
+                {t("pricing")}
+              </button>
               <div className="flex gap-5">
                 <LocalSwitcher />
                 <button className="hover:text-accent text-[14px]">
                   {t("login")}
                 </button>
                 <button className="border text-[14px] hover:bg-accent hover:text-primary rounded-md md:px-3 px-1 md:py-1 py-[2px]">
-                  Open an account
+                  {t("register")}
                 </button>
               </div>
             </div>
@@ -191,7 +201,7 @@ export default function DashBoardNavBar(props: {
                     //   onChange={(e) => setSearch(e.target.value)}
                   />
                   <button
-                    className="bg-accent px-3 py-[2px] text-[13px]"
+                    className="bg-accent text-secondary px-3 py-[2px] text-[13px]"
                     //   onClick={() => searchHandleChange()}
                   >
                     Search
@@ -261,7 +271,7 @@ export default function DashBoardNavBar(props: {
               //   onChange={(e) => setSearch(e.target.value)}
             />
             <button
-              className="bg-accent px-3 py-[2px] text-[13px]"
+              className="bg-accent text-secondary px-3 py-[2px] text-[13px]"
               //   onClick={() => searchHandleChange()}
             >
               Search
