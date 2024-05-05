@@ -1,25 +1,59 @@
 {
   "Index": {
     "about": "Über uns",
-    "stosol": "Lösungen für die Lagerung",
+    "stosol": "Lagersystem",
     "pricing": "Preise",
     "login": "Anmelden",
-    "register": "Konto eröffnen"
+    "register": "Ein Konto eröffnen"
   },
-  "Footer": { 
-    "topp": "OBEN ZUR SEITE",
-    "sub": "ABONNIEREN SIE DEN WARET GOLD-NEWSLETTER, UM ÜBER UNSERE SPEZIALANGEBOTE INFORMIERT ZU BLEIBEN",
-    "official": "Offizieller MKS PAMP GROUP Online-Händler",
+  "Footer": {
+    "topp": "Zurück nach oben",
+    "sub": "ABONNIEREN Sie den WARET GOLD Newsletter, um über unsere Sonderangebote informiert zu bleiben.",
+    "official": "Offizieller Online-Händler der MKS PAMP GROUP",
     "pay": "Zahlungsmethoden",
     "tf": "Banküberweisung",
     "btc": "Bitcoin",
     "deli": "Lieferung",
-    "genc": "Allgemeine Geschäftsbedingungen",
-    "privacy": "Datenschutzbestimmungen",
+    "genc": "Allgemeine Bedingungen",
+    "privacy": "Datenschutzrichtlinie",
     "imp": "Impressum",
     "cright": "Alle Rechte vorbehalten"
   },
-  "Cart":{
-    "title":"In den Warenkorb legen"
+  "Cart": {
+    "title": "In den Warenkorb legen"
+  },
+  "Metals": {
+    "bestsaler": "Bestseller",
+    "limitedEdit": "Limitierte Auflagen",
+    "coins": "Münzen",
+    "newly": "Neuheiten"
+  },
+  "SecureS": {
+    "heading": "Sichern Sie Ihre Ersparnisse",
+    "title": "Kaufen Sie physisches Gold, Silber, Platin und Palladium und bauen Sie Ihre Edelmetall-Ersparnisse von überall aus auf."
+  },
+  "SecureListing1": {
+    "one": "Kaufen",
+    "two": "physische",
+    "three": "Edelmetalle",
+    "desc": "Wir haben die besten physischen Produkte auf dem Markt ausgewählt, darunter Schweizer PAMP®-Barren direkt aus der MKS PAMP-Raffinerie.",
+    "btn1": "Stöbern Sie in unserem Shop",
+    "btn2": "Wie kaufe ich Gold und Edelmetalle?"
+  },
+  "SecureListing2": {
+    "one": "Kostenlose Aufbewahrung",
+    "two": "ohne Verpflichtung",
+    "three": "im Lager",
+    "desc": "Wählen Sie einfach unsere kostenlose versicherte Lagerung direkt in Ihrem Warenkorb aus, und wir werden Ihre Produkte in unseren sicheren Schweizer Tresoren für Sie aufbewahren. Sie bleiben jederzeit für den Wiederverkauf oder die Lieferung verfügbar.",
+    "btn1": "Mehr zur Lagerung",
+    "btn2": "Wie lagere ich Edelmetalle bei WARET GOLD?"
+  },
+  "SecureListing3": {
+    "one": "Verkaufen",
+    "two": "ohne",
+    "three": "Provision",
+    "desc": "Verwalten und verkaufen Sie Ihre Edelmetall-Ersparnisse rund um die Uhr und ohne Provision. Holen Sie sich Ihr Geld, wann immer Sie es brauchen.",
+    "btn1": "Ein leicht zu bedienendes Konto",
+    "btn2": "Wie verkaufe ich meine Edelmetalle?"
   }
 }

@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
 import {
-  ArrowForwardSharp,
   KeyboardArrowLeftOutlined,
 } from "@mui/icons-material";
 import { Button } from "@mui/material";
@@ -123,23 +122,23 @@ const ProductCarousel: React.FC<{ data: any }> = (props) => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3.2,
-          slidesToScroll: 3,
+          slidesToShow: 2.7,
+          slidesToScroll: 2,
           infinite: false,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2.9,
-          slidesToScroll: 2,
+          slidesToShow: 2.4,
+          slidesToScroll: 1.5,
           infinite: false,
         },
       },
       {
         breakpoint: 672,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.2,
           slidesToScroll: 1,
           infinite: false,
         },

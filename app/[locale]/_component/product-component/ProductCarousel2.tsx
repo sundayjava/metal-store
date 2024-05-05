@@ -74,7 +74,7 @@ function SamplePrevArrow(props: any) {
   );
 }
 
-const ProductCarousel: React.FC<{ sectionName: string; data: any }> = (
+const ProductCarousel2: React.FC<{ sectionName: string; data: any }> = (
   props
 ) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -88,8 +88,8 @@ const ProductCarousel: React.FC<{ sectionName: string; data: any }> = (
   var settings = {
     dots: showdots,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 3,
     infinite: false,
     initialSlide: 0,
     afterChange: handleSlideChange,
@@ -106,23 +106,23 @@ const ProductCarousel: React.FC<{ sectionName: string; data: any }> = (
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 2.7,
+          slidesToScroll: 2,
           infinite: false,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1.5,
-          slidesToScroll: 1,
+          slidesToShow: 2.4,
+          slidesToScroll: 1.5,
           infinite: false,
         },
       },
       {
         breakpoint: 672,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.2,
           slidesToScroll: 1,
           infinite: false,
         },
@@ -131,7 +131,7 @@ const ProductCarousel: React.FC<{ sectionName: string; data: any }> = (
   };
 
   return (
-    <div className="bg-white mt-10 py-4 rounded-md">
+    <div className="mt-10 py-4 rounded-md">
       <div className="flex justify-between w-full pr-14 pl-3 items-center">
         <h2 className="text-[21px] font-[700]">
           {props.sectionName}
@@ -157,4 +157,4 @@ const ProductCarousel: React.FC<{ sectionName: string; data: any }> = (
   );
 };
 
-export default ProductCarousel;
+export default ProductCarousel2;

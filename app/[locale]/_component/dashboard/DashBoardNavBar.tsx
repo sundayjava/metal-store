@@ -95,7 +95,14 @@ export default function DashBoardNavBar(props: {
                     } cursor-pointer hover:text-green-500 font-bold`}
                   >
                     <ArrowDropUp />
-                    €0.00
+                    {currency === "eur"
+                      ? "€"
+                      : currency === "chf"
+                      ? "₮"
+                      : currency === "usd"
+                      ? "$"
+                      : "£"}
+                    0.00
                   </span>
                 </p>
               ))}

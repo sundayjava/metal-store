@@ -5,19 +5,16 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 export default function ItemCard(props: { item: any }) {
-  const [isHovered, setIsHovered] = useState(false);
   const { item } = props;
   const { currency } = useCurrency();
   const t = useTranslations("Cart");
 
   return (
     <div
-      className={`cursor-pointer flex-shrink-0 border border-gray-200 rounded-md bg-white w-[285px]`}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      className={`cursor-pointer flex-shrink-0 transition-shadow border-gray-200 hover:shadow-2xl rounded-md bg-white w-[285px]`}
     >
       <div
-        className={`cursor-pointer py-6 rounded-lg hover:shadow-xl w-full px-2 bg-white`}
+        className={`cursor-pointer py-6 rounded-lg w-full px-2 bg-white`}
         style={{ overflow: "hidden" }}
       >
         <div className="relative w-full h-[180px] mb-5 hover:h-[170px] hover:shadow-lg rounded-lg">
@@ -31,7 +28,7 @@ export default function ItemCard(props: { item: any }) {
             />
           </div>
         </div>
-        <p className="h-[60px] hover:text-accent line-clamp-2 text-center">
+        <p className="h-[60px] hover:text-deem line-clamp-2 text-center text-decoration-none text-primary text-[16px] leading-7 font-[400]">
           {item?.title}
         </p>
         <h1 className="font-[700] text-primary text-center mb-4 text-[18px] no-underline leading-7 w-full">
@@ -47,7 +44,7 @@ export default function ItemCard(props: { item: any }) {
         <div className="w-full flex-grow-0 flex justify-center items-center object-bottom">
           <button className="inline-flex w-auto px-4 py-2 border shadow-lg rounded-md hover:border-accent text-white hover:text-accent bg-primary text-center items-center justify-center">
             <ShoppingCart sx={{ fontSize: 19 }} />
-            <span className="font-bold">{t('title')}</span>
+            <span className="font-bold">{t("title")}</span>
           </button>
         </div>
       </div>

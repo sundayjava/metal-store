@@ -7,16 +7,15 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import Footer from "./_component/Footer/Footer";
 import CarouselSlider from "./_component/splash-component/CarouselSlider";
-import ProductCarousel from "./_component/product-component/ProductCarousel";
-import {
-  bestSellData,
-  coinsData,
-  limitedEditionData,
-  newlyArrivedData,
-} from "@/utils/data";
-import ProductCarousel2 from "./_component/product-component/ProductCarousel2";
 import SecureSaving from "./_component/dashboard/SecureSaving";
 import MetalTabs from "./_component/dashboard/MetalTabs";
+import GoldSection from "./_component/dashboard/GoldSection";
+import ProductCarousel2 from "./_component/product-component/ProductCarousel2";
+import { bestSellData } from "@/utils/data";
+import SavingAssistance from "./_component/dashboard/SavingAssistance";
+import Usercarousel from "./_component/dashboard/Usercarousel";
+import WhatIsNew from "./_component/dashboard/WhatIsNew";
+import FAQ from "./_component/dashboard/FAQ";
 
 export default function Dashboard() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -41,22 +40,13 @@ export default function Dashboard() {
         <div className="flex-grow">
           <div className="container py-4">
             <CarouselSlider />
-            <MetalTabs/>
-            {/* <div>
-              <ProductCarousel sectionName="Best Seller" data={bestSellData} />
-              <SecureSaving />
-              <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
-                <ProductCarousel2
-                  sectionName="Limited Editions"
-                  data={limitedEditionData}
-                />
-                <ProductCarousel2 sectionName="Coins" data={coinsData} />
-              </div>
-              <ProductCarousel
-                sectionName="New Arrivals"
-                data={newlyArrivedData}
-              />
-            </div> */}
+            <MetalTabs />
+            <SecureSaving />
+            <GoldSection />
+            <SavingAssistance/>
+            <Usercarousel/>
+            <FAQ/>
+            <WhatIsNew/>
           </div>
         </div>
         <Footer />

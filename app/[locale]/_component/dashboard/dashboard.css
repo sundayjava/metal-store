@@ -92,3 +92,24 @@
   .hover-border:hover::after {
     width: 90%;
   }
+
+.hover-border2 {
+    position: relative;
+    padding-bottom: 2px;
+    overflow: hidden;
+  }
+  
+.hover-border2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #232F3E;
+    transition: width 0.3s ease;
+  }
+  
+  .hover-border2:hover::after {
+    width: 90%;
+  }

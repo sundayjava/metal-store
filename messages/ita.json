@@ -5,21 +5,55 @@
     "pricing": "Prezzi",
     "login": "Accedi",
     "register": "Apri un account"
-  }, 
+  },
   "Footer": {
-    "topp": "IN ALTO ALLA PAGINA",
-    "sub": "ISCRIVITI alla newsletter WARET GOLD per rimanere informato sulle nostre offerte speciali",
+    "topp": "TORNA ALL'INIZIO",
+    "sub": "ISCRIVITI alla newsletter di WARET GOLD per rimanere informato sulle nostre offerte speciali",
     "official": "Rivenditore online ufficiale del GRUPPO MKS PAMP",
-    "pay": "Metodi di Pagamento",
-    "tf": "Bonifico Bancario",
+    "pay": "Metodi di pagamento",
+    "tf": "Bonifico bancario",
     "btc": "Bitcoin",
     "deli": "Consegna",
-    "genc": "Condizioni Generali",
-    "privacy": "Politica sulla Privacy",
-    "imp": "Impressione",
-    "cright": "Tutti i Diritti Riservati"
+    "genc": "Condizioni generali",
+    "privacy": "Informativa sulla privacy",
+    "imp": "Impressum",
+    "cright": "Tutti i diritti riservati"
   },
-  "Cart":{
-    "title":"aggiungi al carrello"
+  "Cart": {
+    "title": "Aggiungi al carrello"
+  },
+  "Metals": {
+    "bestsaler": "I più venduti",
+    "limitedEdit": "Edizioni limitate",
+    "coins": "Monete",
+    "newly": "Nuovi arrivi"
+  },
+  "SecureS": {
+    "heading": "Proteggi i tuoi risparmi",
+    "title": "Acquista oro fisico, argento, platino e palladio e costruisci i tuoi risparmi in metalli preziosi da qualsiasi luogo."
+  },
+  "SecureListing1": {
+    "one": "Acquista",
+    "two": "metalli preziosi",
+    "three": "fisici",
+    "desc": "Abbiamo selezionato i migliori prodotti fisici sul mercato, con barre PAMP® svizzere direttamente dalla raffineria MKS PAMP.",
+    "btn1": "Esplora il nostro negozio",
+    "btn2": "Come acquistare oro e metalli preziosi?"
+  },
+  "SecureListing2": {
+    "one": "Archivia",
+    "two": "gratuitamente senza",
+    "three": "impegno",
+    "desc": "Scegli semplicemente la nostra archiviazione gratuita assicurata direttamente nel carrello, e noi custodiremo i tuoi prodotti nei nostri sicuri caveau svizzeri. Rimarranno disponibili per la rivendita o la consegna in qualsiasi momento.",
+    "btn1": "Maggiori informazioni sull'archiviazione",
+    "btn2": "Come archiviare metalli preziosi con WARET GOLD?"
+  },
+  "SecureListing3": {
+    "one": "Rivendi",
+    "two": "senza commissioni al",
+    "three": "0%",
+    "desc": "Gestisci e rivendi facilmente i tuoi risparmi in metalli preziosi 24/7, senza commissioni. Ottieni i tuoi soldi quando ne hai bisogno.",
+    "btn1": "Un account facile da usare",
+    "btn2": "Come vendere i tuoi metalli preziosi?"
   }
 }

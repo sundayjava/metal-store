@@ -5,7 +5,7 @@
     "pricing": "Pricing",
     "login": "Sign in",
     "register": "Open an account"
-  }, 
+  },
   "Footer": {
     "topp": "TOP TO PAGE",
     "sub": "SUBSCRIBE to WARET GOLD newsletter to stay informed of our special offers",
@@ -19,7 +19,41 @@
     "imp": "Impression",
     "cright": "All Rights Reserved"
   },
-  "Cart":{
-    "title":"Add to cart"
+  "Cart": {
+    "title": "Add to cart"
+  },
+  "Metals": {
+    "bestsaler": "Best Sellers",
+    "limitedEdit": "Limited Editions",
+    "coins": "Coins",
+    "newly": "New Arrivals"
+  },
+  "SecureS": {
+    "heading": "Secure your savings",
+    "title": "Buy physical gold, silver, platinum, and palladium and build your precious metals savings from anywhere."
+  },
+  "SecureListing1": {
+    "one": "Buy",
+    "two": "physical precious",
+    "three": "metals",
+    "desc": "We selected the best physical products on the market, with Swiss-made PAMP® bars directly from the MKS PAMP refinery.",
+    "btn1": "Browse our shop",
+    "btn2": "How to buy gold and precious metals?"
+  },
+  "SecureListing2": {
+    "one": "Store",
+    "two": "for free with",
+    "three": "no commitment",
+    "desc": "Simply choose our free insured storage directly in your cart, and we’ll store your products for you in our secure Swiss vaults. They'll remain available for resale or delivery at any time.",
+    "btn1": "More about storage",
+    "btn2": "How to store precious metals with WARET GOLD?"
+  },
+  "SecureListing3": {
+    "one": "Resell",
+    "two": "with 0%",
+    "three": "commission",
+    "desc": "Easily manage and resell your precious metals savings 24/7, with no commission. Get your money, whenever you need it.",
+    "btn1": "An easy-to-use account",
+    "btn2": "How to sell your precious metals?"
   }
 }

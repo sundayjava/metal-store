@@ -3,6 +3,7 @@ import { Tabs, TabsProps } from "antd";
 import { useEffect, useState } from "react";
 import ProductCarousel from "../product-component/ProductCarousel";
 import { bestSellData, coinsData, limitedEditionData, newlyArrivedData } from "@/utils/data";
+import { useTranslations } from "next-intl";
 
 export default function MetalTabs() {
     const [isCentered, setIsCentered] = useState(false);
@@ -21,25 +22,27 @@ export default function MetalTabs() {
         }
       }, []);
 
+      const t1 = useTranslations("Metals");
+
       const items: TabsProps["items"] = [
         {
           key: "bestsellers",
-          label: "Best Sellers",
+          label: `${t1("bestsaler")}`,
           children: <ProductCarousel data={bestSellData}/>
         },
         {
           key: "limitededitions",
-          label: "Limited Editions",
+          label: `${t1("limitedEdit")}`,
           children: <ProductCarousel data={limitedEditionData}/>
         },
         {
           key: "coins",
-          label: "Coins",
+          label: `${t1("coins")}`,
           children: <ProductCarousel data={coinsData}/>
         },
         {
           key: "newarrivals",
-          label: "New Arrivals",
+          label: `${t1("newly")}`,
           children: <ProductCarousel data={newlyArrivedData}/>
         },
       ];
@@ -50,7 +53,7 @@ export default function MetalTabs() {
       
     return (
         <div>
-        <div className="mt-20">
+        <div className="mt-20 gradbgAll">
           <Tabs
             defaultActiveKey="1"
             items={items}

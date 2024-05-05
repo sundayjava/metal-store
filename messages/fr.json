@@ -7,7 +7,7 @@
     "register": "Ouvrir un compte"
   },
   "Footer": {
-    "topp": "HAUT DE PAGE", 
+    "topp": "HAUT DE PAGE",
     "sub": "ABONNEZ-VOUS à la newsletter WARET GOLD pour rester informé de nos offres spéciales",
     "official": "Revendeur en ligne officiel du groupe MKS PAMP",
     "pay": "Méthodes de paiement",
@@ -19,7 +19,41 @@
     "imp": "Impression",
     "cright": "Tous droits réservés"
   },
-  "Cart":{
-    "title":"ajouter au panier"
+  "Cart": {
+    "title": "Ajouter au panier"
+  },
+  "Metals": {
+    "bestsaler": "Meilleures ventes",
+    "limitedEdit": "Éditions limitées",
+    "coins": "Pièces de monnaie",
+    "newly": "Nouveautés"
+  },
+  "SecureS": {
+    "heading": "Sécurisez vos économies",
+    "title": "Achetez de l'or, de l'argent, du platine et du palladium physiques et constituez vos économies en métaux précieux de n'importe où."
+  },
+  "SecureListing1": {
+    "one": "Achetez",
+    "two": "des métaux précieux",
+    "three": "physiques",
+    "desc": "Nous avons sélectionné les meilleurs produits physiques du marché, avec des lingots PAMP® fabriqués en Suisse directement à partir de la raffinerie MKS PAMP.",
+    "btn1": "Parcourir notre boutique",
+    "btn2": "Comment acheter de l'or et des métaux précieux ?"
+  },
+  "SecureListing2": {
+    "one": "Stockez",
+    "two": "gratuitement et sans engagement",
+    "three": "",
+    "desc": "Choisissez simplement notre stockage gratuit et assuré directement dans votre panier, et nous stockerons vos produits pour vous dans nos coffres-forts suisses sécurisés. Ils resteront disponibles pour la revente ou la livraison à tout moment.",
+    "btn1": "En savoir plus sur le stockage",
+    "btn2": "Comment stocker des métaux précieux avec WARET GOLD ?"
+  },
+  "SecureListing3": {
+    "one": "Revendez",
+    "two": "sans commission",
+    "three": "0%",
+    "desc": "Gérez et revendez facilement vos économies en métaux précieux 24h/24 et 7j/7, sans commission. Obtenez votre argent quand vous en avez besoin.",
+    "btn1": "Un compte facile à utiliser",
+    "btn2": "Comment vendre vos métaux précieux ?"
   }
 }
