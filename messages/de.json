@@ -55,5 +55,54 @@
     "desc": "Verwalten und verkaufen Sie Ihre Edelmetall-Ersparnisse rund um die Uhr und ohne Provision. Holen Sie sich Ihr Geld, wann immer Sie es brauchen.",
     "btn1": "Ein leicht zu bedienendes Konto",
     "btn2": "Wie verkaufe ich meine Edelmetalle?"
+  },
+  "WeHelp": {
+    "title": "Wir sind hier, um Ihnen beim Sparen zu helfen.",
+    "sub": "Verwandeln Sie Ihr Geld in physisches Gold mit WARET GOLD.",
+    "lkn1": "Was ist WARET GOLD",
+    "rightsidetitle": "Vertrauen Sie einem Branchenexperten",
+    "desc1": "WARET GOLD ist der offizielle Online-Händler der MKS PAMP GROUP, einer Schweizer Familienfirma mit weltweitem Ruf.",
+    "desc2": "In den letzten 60 Jahren ist die Gruppe zum Marktführer im Edelmetallsektor geworden.",
+    "maun": "Lassen Sie uns langfristig aufbauen.",
+    "lkn2": "Erfahren Sie mehr über uns"
+  },
+  "SavingAssist": {
+    "title": "Probieren Sie unseren Sparassistenten aus",
+    "sub": "Wählen Sie die richtigen Produkte aus, um Ihre Ersparnisse zu sichern. Wählen Sie einfach ein Metall aus, geben Sie ein Budget ein, und unser Sparassistent wird Ihnen helfen, loszulegen!",
+    "goldtext": "Wählen Sie ein Metall",
+    "budget": "Geben Sie ein Budget ein",
+    "btn":"Zeigen Sie mir mein Ergebnis.",
+    "morethan1": "Mehr als",
+    "morethan2": "102.000 Benutzer",
+    "morethan3": "vertrauen uns bereits!"
+  },
+  "Faq": {
+    "title": "Häufig gestellte Fragen",
+    "sub": "Lesen Sie die häufig gestellten Fragen von Sparern und Anlegern zu WARET GOLD und zum Kauf von Gold, Silber und Edelmetallen.",
+    "head1": "Gehören mir die Edelmetalle, die ich bei WARET GOLD kaufe?",
+    "value1": "Sie besitzen zu 100% die Produkte, die Sie bei WARET GOLD kaufen. Alle Ihre gelagerten Produkte werden physisch in unseren sicheren Tresoren aufbewahrt und nicht in unsere Bilanz einbezogen, sodass Sie ihr einzigartiger rechtlicher Eigentümer bleiben, selbst wenn WARET GOLD seine Geschäftstätigkeit einstellen sollte. Tatsächlich verkauft WARET GOLD nur zugewiesene Edelmetalle, die Ihnen vollständig gehören. Andere Händler können 'mutualisiertes' Gold verkaufen, oft als 12,5 kg Barren, der mit anderen Kunden geteilt wird. Obwohl ein Teil davon Ihnen technisch gehört, kann es schwierig sein, es wieder zu verkaufen und ist normalerweise nicht einlösbar. Einige Händler verkaufen sogar 'Papiergold', das selbst kein physisches Gold ist, sondern ein Vermögenswert, der den Goldpreis widerspiegelt und nicht unbedingt durch echtes physisches Gold gedeckt ist.",
+    "head2": "Gibt es eine Garantie für meine Einkäufe bei WARET GOLD?",
+    "value2": "Alle auf WARET GOLD verkauften Edelmetallbarren sind versiegelt und mit einem Reinheitszertifikat versehen. Wir stellen auch ein herunterladbares Eigentumszertifikat für jedes gelagerte Produkt und eine druckbare Rechnung mit jedem Kauf zur Verfügung. Auf diese Weise haben Sie immer einen schriftlichen Nachweis Ihres Eigentums. Geprägte Barren sind im CertiPAMP-Verpackungsmaterial verpackt, das als Reinheitszertifikat dient. Wir empfehlen, diese Produkte in ihrer versiegelten Verpackung zu lassen, um die Gültigkeit ihres Reinheitszertifikats zu gewährleisten. Einige unserer Produkte sind auch mit der Veriscan-Technologie ausgestattet, einer Anwendung von MKS PAMP SA, die dazu dient, Edelmetallprodukte und ihre Reinheit sicher zu identifizieren.",
+    "head3": "Welche Qualität haben die Produkte auf WARET GOLD?",
+    "value3": "Unsere Edelmetallbarren und -münzen stammen direkt von den renommiertesten Münzprägestätten und haben strenge Qualitätskontrollen durchlaufen. Unser Mutterunternehmen, die MKS PAMP GROUP, ist Mitglied der LBMA (London Bullion Market Association), daher sind alle von der Schweizer MKS PAMP-Raffinerie hergestellten Edelmetalle LBMA-geprüft. Unsere in der Schweiz hergestellten Goldbarren sind alle neu geprägt und bestehen aus 999,9 Feingold (24 Karat). Sie finden alle Informationen zur Reinheit unserer Barren und Münzen direkt auf deren Produktseite.",
+    "head4": "Was ist WARET GOLD Pay?",
+    "value4": "WARET GOLD Pay ist unsere Lösung für sofortige Zahlungen und Auszahlungen. Es ist eine kostenlose und sichere Möglichkeit, Ihre Gelder auf WARET GOLD zu verwalten. Bevor Sie eine Bestellung aufgeben, laden Sie es einfach per Banküberweisung auf und verwenden Sie es als sichere Zahlungsmethode. Wenn Sie ein gelagertes Produkt auf WARET GOLD verkaufen, werden Ihre Gelder direkt Ihrem WARET GOLD Pay gutgeschrieben. Sie können dann Ihre Gelder verwenden, um eine neue Bestellung aufzugeben oder sie zurück auf Ihr persönliches Bankkonto zu überweisen. Wenn die Gelder auf Ihrem WARET GOLD Pay nicht den vollen Preis einer Bestellung decken, können Sie einfach Ihre gespeicherten Kreditkarten während des Checkouts verwenden, um den Restbetrag zu bezahlen! Lesen Sie mehr über die verfügbaren Zahlungsmethoden auf WARET GOLD auf unserer Preisgestaltungsseite.",
+    "head5": "Können die bei WARET GOLD gelagerten Edelmetalle physisch an mich geliefert werden?",
+    "value5": "Ja, Sie können jederzeit die Lieferung Ihrer gelagerten Produkte direkt von Ihrem persönlichen Konto aus anfordern. Wir versenden in ganz Europa innerhalb von 4-10 Werktagen, und alle Pakete sind sicher verpackt und gegen Diebstahl, Beschädigung und Verlust versichert. Sie finden die Liste der Länder und unsere Standardversandkosten auf unserer Preisgestaltungsseite. Bitte beachten Sie, dass bei der Lieferung Ihrer MwSt-freien Silber-, Platin- oder Palladiumprodukte die MwSt. zusammen mit den Versand- und Versicherungsgebühren zurückgefordert wird. Vergessen Sie nicht, die MwSt.-Sätze Ihres Landes vor dem Versand zu überprüfen.",
+    "head6": "Welche Gebühren und Provisionen fallen beim Kauf, der Lagerung oder dem Verkauf auf WARET GOLD an?",
+    "value6": "Wie jeder Edelmetallhändler berechnen wir einen Aufschlag (auch 'Prämie' genannt) auf jedes Produkt, der den Kosten und dem Händleraufschlag entspricht. Dieser Aufschlag ist bereits in den Preisen enthalten, die Sie in unserem Shop sehen. Um zu verstehen, wie sich der Preis eines Produkts zusammensetzt, klicken Sie einfach darauf, um eine detaillierte Aufschlüsselung zu sehen. Alle Produkte, die Sie bei uns lagern, sind kostenlos gegen Verlust, Diebstahl und Beschädigung versichert. Die Lagerung ist auch bis zu einem Lagerwert von CHF 10.000 kostenlos, und wenn Sie größere Mengen lagern möchten, zahlen Sie nur eine feste Gebühr von CHF 8/Monat bis zu einem Lagerwert von CHF 100.000. Und das war es dann auch schon. Das sind die einzigen Gebühren, die wir auf WARET GOLD berechnen werden. Beim Wiederverkauf nehmen wir keine Gebühren oder Provisionen und bieten einen sofortigen Rückkauf zum aktuellen Preis für alle Produkte an, die Sie bei uns lagern. Das bedeutet, dass wir Ihnen den vollen Marktpreis für Ihr Produkt zahlen, wann immer Sie verkaufen möchten. Lesen Sie mehr darüber auf unserer Seite zur Lagerlösung.",
+    "head7": "Warum sollte ich 2024 in Gold sparen?",
+    "value7": "Während der Goldpreis in den Jahren 2021 Schwankungen unterlag, ist er in den letzten 5 Jahren um über 60% gestiegen, und Gold hat historisch betrachtet in Zeiten von Inflation und wirtschaftlicher Unsicherheit gut abgeschnitten. Heute kaufen Investoren oft Gold aus zwei Gründen. Erstens, um ihre Ersparnisse zu sichern, anstatt ihr Geld auf einem Sparkonto durch Inflation auffressen zu lassen. Dann, um ihr Portfolio zu diversifizieren und es gegen Risiken zu schützen, die sie anderswo eingehen könnten (Aktien, Kryptowährungen, Immobilien usw.). Viele Käufer entscheiden sich auch dafür, regelmäßig Gold zu sparen, um die Preisschwankungen auszugleichen, die kurz- bis mittelfristig auftreten können. Das Sparen in Gold ist eine Möglichkeit, Ihre Ersparnisse zu sichern und langfristig Vermögen aufzubauen. Besuchen Sie unseren Blog und abonnieren Sie unseren Bildungsnewsletter, um mehr über Sparen, Investitionen und Edelmetalle zu erfahren!"
+  },
+  "Whatsnew": {
+    "title": "Was gibt es Neues diese Woche?",
+    "sub": "Erfahren Sie mehr darüber, was die Märkte und die Wirtschaft antreibt, und wie Sie Ihre Ersparnisse sichern können, indem Sie in Gold, Silber und Edelmetalle investieren.",
+    "lkn1": "Entdecken Sie unseren Blog",
+    "pt1title": "Verwendungen von Gold: Wie Gold verwendet wird und wie es die Goldpreise beeinflusst",
+    "pt1desc": "Von Währung bis Computer gibt es viele reale Anwendungen für Gold außerhalb seiner primären Verwendung als Geld. Aber wie beeinflussen die häufigen Verwendungen von Gold die Goldpreise? Finden wir es heraus.",
+    "pt2title": "Ist die Goldanlage nur für Reiche reserviert?",
+    "pt2desc": "Veraltet, teuer und elitär: Sowohl junge Investoren als auch diejenigen mit bescheidenerem Einkommen neigen dazu, Gold zu übersehen... und sie irren sich! Lassen Sie uns die Missverständnisse über die Anlage aufklären...",
+    "pt3title": "Ein umfassender Leitfaden zu Anlagesteuern: Was Sparer...",
+    "pt3desc": "Alles, was Sie über Anlagesteuern bei Aktien, Krypto und Edelmetallen wissen müssen, wenn Sie Ihr Anlageportfolio und Ihre Ersparnisse aufbauen."
   }
 }

@@ -7,10 +7,12 @@ import Rating from "@mui/material/Rating";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { userReviews } from "@/utils/data";
 import { useMediaQuery } from "@mui/material";
+import { useTranslations } from "next-intl";
 
 export default function Usercarousel() {
   const isMediumScreen = useMediaQuery("(min-width: 600px)");
   const showdots = isMediumScreen ? false : true;
+  const t = useTranslations("SavingAssist");
 
   var settings = {
     dots: showdots,
@@ -51,17 +53,20 @@ export default function Usercarousel() {
     <div className="gradbgAll py-10">
       <div className="text-decoration-none text-primary text-xl font-[700] mb-[24px]">
         <h1>
-          More than <span className="text-green-600">102,000 users</span>{" "}
-          already
+          {t("morethan1")}{" "}
+          <span className="text-green-600">{t("morethan2")}</span>{" "}
         </h1>
-        <p>trust us!</p>
+        <p>{t("morethan3")}</p>
       </div>
       <div className="mt-20" />
       <div className="bg-white rounded-md">
         <div className="slider-container relative px-1 mt-3">
           <Slider {...settings}>
             {userReviews.map((item) => (
-              <div key={item.id} className="cursor-pointer flex-shrink-0 transition-shadow border-gray-200 hover:shadow-2xl rounded-md bg-white w-[285px]">
+              <div
+                key={item.id}
+                className="cursor-pointer flex-shrink-0 transition-shadow border-gray-200 hover:shadow-2xl rounded-md bg-white w-[285px]"
+              >
                 <div className="cursor-pointer py-6 rounded-lg w-full px-2 bg-white">
                   <div className="flex gap-2">
                     <Rating
@@ -89,7 +94,9 @@ export default function Usercarousel() {
                   <div className="mt-6 text-[14px]">
                     <h1>
                       {item.name},{" "}
-                      <span className=" text-gray-500 text-[14px]">{item.time}</span>
+                      <span className=" text-gray-500 text-[14px]">
+                        {item.time}
+                      </span>
                     </h1>
                   </div>
                 </div>

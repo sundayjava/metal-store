@@ -2,15 +2,17 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Image from "next/image";
 import SellIcon from "@mui/icons-material/Sell";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function WhatIsNew() {
+  const t = useTranslations("Whatsnew");
   const newBlog = [
     {
       id: 1,
       img: "https://assets.goldavenue.com/uploads/redactor2_assets/images/4894/123.jpg",
       time: "10 minutes read",
-      title: "Uses for Gold: How Gold Is Used and How It Impacts Gold Prices",
-      desc: "From currency to computers, there are plenty of real-world gold applications outside of its primary use as money. But how do common uses for gold impact gold prices? Let's find out.",
+      title: `${t("pt1title")}`,
+      desc: `${t("pt1desc")}`,
       tag1: "Did you know?",
       tag2: "Gold price",
     },
@@ -18,8 +20,8 @@ export default function WhatIsNew() {
       id: 2,
       img: "https://assets.goldavenue.com/uploads/redactor2_assets/images/4009/fb745a00-2ade-46ed-9d6b-923d1758b5cb.jpg",
       time: "10 minutes read",
-      title: "Is Gold Investment Reserved for the Wealthy?",
-      desc: "Outdated, expensive, and elitist: both young investors and those with more modest incomes tend to overlook gold... and they're mistaken! Let's debunk the misconceptions about investment...",
+      title: `${t("pt2title")}`,
+      desc: `${t("pt2desc")}`,
       tag1: "Gold Savings",
       tag2: "Investment",
     },
@@ -27,8 +29,8 @@ export default function WhatIsNew() {
       id: 3,
       img: "https://assets.goldavenue.com/uploads/redactor2_assets/images/3935/b54ffb84-6e43-4533-ac8f-0af1067b6d66.jpeg",
       time: "15 minutes read",
-      title: "A Comprehensive Guide to Investment Taxes: What Savers...",
-      desc: "All you need to know about investment taxes on stocks, crypto, and precious metals when building your investment portfolio and savings.",
+      title: `${t("pt3title")}`,
+      desc: `${t("pt3desc")}`,
       tag1: "Investing",
       tag2: "Gold",
     },
@@ -38,19 +40,17 @@ export default function WhatIsNew() {
       <div className="flex md:flex-row flex-col items-end justify-between">
         <div className="md:w-[60%] w-full">
           <h1 className="text-decoration-none text-primary text-xl font-[700] mb-[24px]">
-            What’s new this week?
+            {t("title")}
           </h1>
           <p className="text-decoration-none text-primary text-[20px] leading-7 font-[300] max-w-[750px]">
-            Learn more about what drives the markets and the economy and how to
-            secure your savings by investing in gold, silver, and precious
-            metals.
+            {t("sub")}
           </p>
         </div>
         <Link
           href="https://newstopedia.space"
           className="md:flex hidden text-deem hover-border2 gap-2 items-center"
         >
-          Discover our Blog <ArrowForwardIcon sx={{ fontSize: 17 }} />
+          {t("lkn1")} <ArrowForwardIcon sx={{ fontSize: 17 }} />
         </Link>
       </div>
       <div className="grid md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1 mt-24">
@@ -77,7 +77,7 @@ export default function WhatIsNew() {
             >
               {item.title}
             </a>
-            <p className="mt-4 text-decoration-none text-primary text-[19px] leading-7 font-[300] h-[150px]">
+            <p className="mt-4 text-decoration-none text-primary text-[19px] leading-7 font-[300] h-[170px]">
               {item.desc}
             </p>
             <div className="text-[14px] text-primaryColor font-light flex items-center gap-1">

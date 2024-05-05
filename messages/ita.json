@@ -55,5 +55,54 @@
     "desc": "Gestisci e rivendi facilmente i tuoi risparmi in metalli preziosi 24/7, senza commissioni. Ottieni i tuoi soldi quando ne hai bisogno.",
     "btn1": "Un account facile da usare",
     "btn2": "Come vendere i tuoi metalli preziosi?"
+  },
+  "WeHelp": {
+    "title": "Siamo qui per aiutarti a risparmiare.",
+    "sub": "Trasforma i tuoi soldi in oro fisico con WARET GOLD.",
+    "lkn1": "Cos'è WARET GOLD",
+    "rightsidetitle": "Affida a un esperto del settore",
+    "desc1": "WARET GOLD è il rivenditore online ufficiale del MKS PAMP GROUP, un gruppo familiare svizzero con una reputazione globale.",
+    "desc2": "Negli ultimi 60 anni, il gruppo è diventato il leader nel settore dei metalli preziosi.",
+    "maun": "Costruiamo per il lungo termine.",
+    "lkn2": "Scopri di più su di noi"
+  },
+  "SavingAssist": {
+    "title": "Prova il nostro assistente per il risparmio",
+    "sub": "Scegli i prodotti giusti per proteggere i tuoi risparmi. Scegli semplicemente un metallo, inserisci un budget e il nostro assistente per il risparmio ti aiuterà ad iniziare!",
+    "goldtext": "Scegli un metallo",
+    "budget": "Inserisci un budget",
+    "btn":"Mostra il mio risultat",
+    "morethan1": "Più di",
+    "morethan2": "102.000 utenti",
+    "morethan3": "già ci affidano!"
+  },
+  "Faq": {
+    "title": "Domande frequenti",
+    "sub": "Leggi le domande più frequenti da risparmiatori e investitori su WARET GOLD e su come acquistare oro, argento e metalli preziosi.",
+    "head1": "Possiedo i metalli preziosi che acquisto su WARET GOLD?",
+    "value1": "Possiedi al 100% i prodotti che acquisti su WARET GOLD. Tutti i tuoi prodotti conservati sono fisicamente custoditi nei nostri caveau sicuri e fuori dal nostro bilancio, quindi rimani il loro unico proprietario legale anche se WARET GOLD dovesse cessare le sue attività commerciali. Infatti, WARET GOLD vende solo metalli preziosi allocati che ti appartengono interamente. Altri rivenditori possono vendere oro 'mutualizzato', spesso come barra da 12,5 kg condivisa con altri clienti. Anche se una parte tecnicamente ti appartiene, può essere difficile da rivendere e di solito non è disponibile per il riscatto. Alcuni rivenditori vendono persino 'oro cartaceo', che non è oro fisico ma un'attività che riflette il prezzo dell'oro e non necessariamente è supportata da oro fisico reale.",
+    "head2": "C'è qualche garanzia per i miei acquisti su WARET GOLD?",
+    "value2": "Tutte le barre di metalli preziosi vendute su WARET GOLD sono sigillate e accompagnate da un certificato di purezza. Forniamo anche un certificato di proprietà scaricabile per ogni prodotto conservato e una fattura stampabile con ogni acquisto. In questo modo, hai sempre una prova cartacea della tua proprietà. Le barre coniugate sono dotate della confezione CertiPAMP che funge da certificato di purezza. Consigliamo di lasciare questi prodotti nella loro confezione sigillata per garantire la validità del certificato di purezza. Alcuni dei nostri prodotti sono dotati anche della tecnologia Veriscan, un'applicazione di MKS PAMP SA utilizzata per identificare in modo sicuro i prodotti di metalli preziosi e la loro purezza.",
+    "head3": "Qual è la qualità dei prodotti su WARET GOLD?",
+    "value3": "Le nostre barre e monete di metalli preziosi provengono direttamente dalle fucine più rinomate e hanno subito un'ampia serie di controlli di qualità. La nostra casa madre, il MKS PAMP GROUP, fa parte della LBMA (London Bullion Market Association), quindi tutti i metalli preziosi prodotti dalla raffineria svizzera MKS PAMP sono approvati dalla LBMA. Le nostre barre d'oro di fabbricazione svizzera sono tutte nuove e di oro puro al 999,9 (24 carati). Puoi trovare tutte le informazioni sulla purezza delle nostre barre e monete direttamente sulla pagina del prodotto.",
+    "head4": "Cos'è WARET GOLD Pay?",
+    "value4": "WARET GOLD Pay è la nostra soluzione di pagamento e prelievo istantaneo. È un modo gratuito e sicuro per gestire i tuoi fondi su WARET GOLD. Prima di effettuare un ordine, ricaricalo con un semplice bonifico bancario e usalo come metodo di pagamento sicuro. Quando vendi un prodotto conservato su WARET GOLD, i tuoi fondi saranno direttamente aggiunti al tuo WARET GOLD Pay. Puoi quindi utilizzare i tuoi fondi per effettuare un nuovo ordine o riportarli sul tuo conto bancario personale. Se i fondi sul tuo WARET GOLD Pay non coprono l'intero importo di un ordine, puoi semplicemente utilizzare le tue carte di credito salvate durante il checkout per pagare la differenza! Leggi di più sui metodi di pagamento disponibili su WARET GOLD nella nostra pagina dei prezzi.",
+    "head5": "I metalli preziosi che conservo con WARET GOLD possono essere fisicamente consegnati a me?",
+    "value5": "Sì, puoi richiedere che i tuoi prodotti conservati ti vengano consegnati 24/7, direttamente dal tuo account personale. Spediamo in tutta Europa in 4-10 giorni lavorativi e tutti i pacchi sono accuratamente imballati e assicurati contro furto, danni e perdite. Puoi trovare l'elenco dei paesi e i nostri prezzi di spedizione standard sulla nostra pagina dei prezzi. Tieni presente che se scegli di consegnare i tuoi prodotti in argento, platino o palladio ESENTI DA IVA, verrà riapplicata l'IVA, insieme alle spese di spedizione e assicurazione. Non dimenticare di verificare le aliquote IVA del tuo paese prima della spedizione.",
+    "head6": "Quali sono le commissioni e le spese quando acquisto, conservo o vendo su WARET GOLD?",
+    "value6": "Come qualsiasi rivenditore di metalli preziosi, applichiamo un margine (detto anche 'premio') su ciascun prodotto, che copre i nostri costi e il margine del rivenditore. Questo margine è già incluso nei prezzi che vedi nel nostro negozio. Per comprendere meglio come funziona il prezzo di un prodotto, basta fare clic su di esso per vedere una dettagliata scomposizione. Qualsiasi prodotto che conservi con noi è completamente assicurato contro perdite, furti e danni, gratuitamente. La conservazione è anche gratuita fino a un valore di conservazione di CHF 10.000 e se desideri conservare quantità più grandi, paghi solo una tariffa fissa di CHF 8 al mese fino a un valore di conservazione di CHF 100.000. E questo è tutto. Queste sono le uniche spese che addebiteremo su WARET GOLD. Alla rivendita, non applichiamo alcuna commissione o spesa e offriamo il riacquisto istantaneo, al prezzo di mercato per tutti i prodotti che conservi con noi. Ciò significa che ti pagheremo il prezzo di mercato completo per il tuo prodotto, ogni volta che desideri venderlo. Puoi leggere di più su questo sulla nostra pagina della soluzione di conservazione.",
+    "head7": "Perché dovrei risparmiare in oro nel 2024?",
+    "value7": "Mentre il prezzo dell'oro ha subito fluttuazioni nel 2021, è aumentato di oltre il 60% negli ultimi 5 anni, e l'oro ha storicamente ottenuto buoni risultati in periodi di inflazione e incertezza economica. Oggi, gli investitori comprano spesso oro per due motivi. Primo, per proteggere i loro risparmi anziché lasciare i loro soldi in un conto di risparmio per essere erosi dall'inflazione. Poi, per diversificare il loro portafoglio e proteggerlo dai rischi che potrebbero correre altrove (azioni, criptovalute, immobili, ecc.). Molti acquirenti scelgono anche di risparmiare in oro regolarmente per appianare le variazioni di prezzo che possono verificarsi nel breve e medio termine. Risparmiare in oro è un modo per proteggere i tuoi risparmi e costruire ricchezza nel lungo termine. Per saperne di più su risparmi, investimenti e metalli preziosi, visita il nostro blog e iscriviti alla nostra newsletter educativa!"
+  },
+  "Whatsnew": {
+    "title": "Novità di questa settimana",
+    "sub": "Scopri di più su ciò che guida i mercati e l'economia e su come proteggere i tuoi risparmi investendo in oro, argento e metalli preziosi.",
+    "lkn1": "Scopri il nostro Blog",
+    "pt1title": "Usi dell'oro: Come viene utilizzato l'oro e come influenza i prezzi dell'oro",
+    "pt1desc": "Dalla valuta ai computer, ci sono molte applicazioni reali dell'oro al di fuori del suo utilizzo primario come denaro. Ma come influenzano i comuni usi dell'oro i prezzi dell'oro? Scopriamolo.",
+    "pt2title": "L'investimento in oro è riservato ai ricchi?",
+    "pt2desc": "Obsoleto, costoso ed elitario: sia i giovani investitori che coloro con redditi più modesti tendono a trascurare l'oro... e si sbagliano! Smontiamo i pregiudizi sull'investimento...",
+    "pt3title": "Una guida completa alle tasse d'investimento: cosa devono sapere i risparmiatori...",
+    "pt3desc": "Tutto ciò che devi sapere sulle tasse d'investimento su azioni, cripto e metalli preziosi quando costruisci il tuo portafoglio d'investimento e risparmio."
   }
 }

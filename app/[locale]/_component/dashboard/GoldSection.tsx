@@ -4,17 +4,19 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Link from "next/link";
 import goldLogo from "../../../../public/dashboard/goldlog.webp";
 import leftos from "../../../../public/dashboard/lefttos.webp";
+import { useTranslations } from "next-intl";
 
 export default function GoldSection() {
+  const t = useTranslations("WeHelp");
   return (
     <div className="mt-16 gradbgAll">
       <div className="flex md:flex-row flex-col justify-between gap-2 items-center">
         <div className="md:w-[60%] w-full">
           <h1 className="text-decoration-none text-primary text-lg font-[700] mb-[24px]">
-            We’re here to help you save.
+            {t("title")}
           </h1>
           <p className="text-decoration-none text-primary text-[20px] leading-7 font-[300] max-w-[750px]">
-            Turn your money into physical gold with WARET GOLD.
+            {t("sub")}
           </p>
           <Link
             href="https://www.youtube.com/watch?v=qySv9Yw2SuQ"
@@ -22,7 +24,7 @@ export default function GoldSection() {
           >
             <SmartDisplayIcon sx={{ fontSize: 15, cursor: "pointer" }} />
             <span className="hover-border2 font-normal text-deem hover:text-primary">
-              What is WARET GOLD
+              {t("lkn1")}
             </span>
           </Link>
         </div>
@@ -53,25 +55,23 @@ export default function GoldSection() {
         </div>
         <div className="md:w-[50%] w-full">
           <h1 className="text-decoration-none text-primary text-lg font-[700] mb-[24px]">
-            Trust an industry expert
+            {t("rightsidetitle")}
           </h1>
           <p className="text-decoration-none text-primary text-[19px] leading-7 font-[300] max-w-[750px]">
-            WARET GOLD is the official online retailer of the MKS PAMP GROUP, a
-            Swiss family group with a global reputation.
+            {t("desc1")}
           </p>
           <p className="text-decoration-none text-primary text-[19px] leading-7 font-[300] max-w-[750px]">
-            Over the past 60 years, the group has become the leader in the
-            precious metals sector.
+            {t("desc2")}
           </p>
           <p className="text-decoration-none text-primary text-[19px] leading-7 font-[400]">
-            Let’s build for the long term.
+            {t("maun")}
           </p>
           <div className="mt-11">
             <Link
               href="en/about-us"
               className="hover-border2 font-normal text-deem hover:text-primary"
             >
-              Learn more about us <ArrowForwardIcon sx={{ fontSize: 16 }} />
+              {t("lkn2")} <ArrowForwardIcon sx={{ fontSize: 16 }} />
             </Link>
           </div>
         </div>

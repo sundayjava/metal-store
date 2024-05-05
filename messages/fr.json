@@ -55,5 +55,54 @@
     "desc": "Gérez et revendez facilement vos économies en métaux précieux 24h/24 et 7j/7, sans commission. Obtenez votre argent quand vous en avez besoin.",
     "btn1": "Un compte facile à utiliser",
     "btn2": "Comment vendre vos métaux précieux ?"
+  },
+  "WeHelp": {
+    "title": "Nous sommes là pour vous aider à économiser.",
+    "sub": "Transformez votre argent en or physique avec WARET GOLD.",
+    "lkn1": "Qu'est-ce que WARET GOLD",
+    "rightsidetitle": "Faites confiance à un expert de l'industrie",
+    "desc1": "WARET GOLD est le détaillant en ligne officiel du groupe MKS PAMP, un groupe familial suisse avec une réputation mondiale.",
+    "desc2": "Au cours des 60 dernières années, le groupe est devenu le leader du secteur des métaux précieux.",
+    "maun": "Construisons pour le long terme.",
+    "lkn2": "En savoir plus sur nous"
+  },
+  "SavingAssist": {
+    "title": "Essayez notre assistant d'épargne",
+    "sub": "Choisissez les bons produits pour sécuriser vos économies. Sélectionnez simplement un métal, entrez un budget et notre assistant d'épargne vous aidera à commencer !",
+    "goldtext": "Choisissez un métal",
+    "budget": "Entrez un budget",
+    "btn":"Montrez-moi mon résultat.",
+    "morethan1": "Plus de",
+    "morethan2": "102 000 utilisateurs",
+    "morethan3": "nous font déjà confiance !"
+  },
+  "Faq": {
+    "title": "Questions fréquemment posées",
+    "sub": "Consultez les questions les plus fréquemment posées par les épargnants et les investisseurs sur WARET GOLD et sur l'achat d'or, d'argent et de métaux précieux.",
+    "head1": "Est-ce que je possède les métaux précieux que j'achète sur WARET GOLD ?",
+    "value1": "Vous possédez à 100 % les produits que vous achetez sur WARET GOLD. Tous vos produits stockés sont physiquement conservés dans nos coffres sécurisés et hors de notre bilan, vous en restez donc le propriétaire légal unique même si WARET GOLD cessait ses activités commerciales. En effet, WARET GOLD ne vend que des métaux précieux attribués qui vous appartiennent entièrement. D'autres revendeurs peuvent vendre de l'or \"mutualisé\", souvent sous la forme d'une barre de 12,5 kg partagée avec d'autres clients. Bien qu'une partie vous appartienne techniquement, il peut être difficile de le revendre et n'est généralement pas disponible à la récupération. Certains revendeurs vendent même de l'\"or papier\", qui n'est pas de l'or physique en soi mais un actif reflétant le prix de l'or et non nécessairement adossé à de l'or physique réel.",
+    "head2": "Y a-t-il une garantie pour mes achats sur WARET GOLD ?",
+    "value2": "Toutes les barres de métaux précieux vendues sur WARET GOLD sont scellées et accompagnées d'un certificat de pureté. Nous fournissons également un certificat de propriété téléchargeable pour chaque produit stocké et une facture imprimable pour chaque achat. Ainsi, vous disposez toujours d'une preuve papier de votre propriété. Les barres frappées sont livrées dans l'emballage CertiPAMP qui sert de certificat de pureté. Nous vous conseillons de laisser ces produits dans leur emballage scellé pour garantir la validité de leur certificat de pureté. Certains de nos produits sont également équipés de la technologie Veriscan, une application de MKS PAMP SA utilisée pour identifier de manière sécurisée les produits de métaux précieux et leur pureté.",
+    "head3": "Quelle est la qualité des produits sur WARET GOLD ?",
+    "value3": "Nos barres et pièces de métaux précieux proviennent directement des raffineries les plus réputées et ont fait l'objet d'un contrôle qualité approfondi. Notre société mère, le groupe MKS PAMP, fait partie de la LBMA (London Bullion Market Association), donc tous les métaux précieux produits par la raffinerie suisse MKS PAMP sont approuvés par la LBMA. Nos barres d'or fabriquées en Suisse sont toutes nouvellement frappées et en or fin 999,9 (24 carats). Vous pouvez trouver toutes les informations sur la pureté de toutes nos barres et pièces directement sur leur page produit.",
+    "head4": "Qu'est-ce que WARET GOLD Pay ?",
+    "value4": "WARET GOLD Pay est notre solution de paiement et de retrait instantanés. C'est un moyen gratuit et sécurisé de gérer vos fonds sur WARET GOLD. Avant une commande, alimentez-le par un simple virement bancaire et utilisez-le comme méthode de paiement sécurisée. Lorsque vous vendez un produit stocké sur WARET GOLD, vos fonds sont directement ajoutés à votre WARET GOLD Pay. Vous pouvez ensuite utiliser vos fonds pour passer une nouvelle commande ou les renvoyer sur votre compte bancaire personnel. Si les fonds sur votre WARET GOLD Pay ne couvrent pas le prix total d'une commande, vous pouvez simplement utiliser vos cartes de crédit enregistrées lors du paiement pour régler le reste ! En savoir plus sur les méthodes de paiement disponibles sur WARET GOLD sur notre page tarifs.",
+    "head5": "Les métaux précieux que je stocke chez WARET GOLD peuvent-ils m'être livrés physiquement ?",
+    "value5": "Oui, vous pouvez demander la livraison de vos produits stockés à tout moment, directement depuis votre compte personnel. Nous livrons dans toute l'Europe en 4 à 10 jours ouvrables et tous les colis sont soigneusement emballés et assurés contre le vol, les dommages et la perte. Vous pouvez trouver la liste des pays et nos tarifs de livraison standard sur notre page tarifs. Veuillez noter que si vous choisissez de faire livrer vos produits en argent, en platine ou en palladium EXONÉRÉS DE TVA, la TVA sera réappliquée, ainsi que les frais de livraison et d'assurance. N'oubliez pas de vérifier les taux de TVA de votre pays avant l'expédition.",
+    "head6": "Quels sont les frais et commissions lorsque j'achète, stocke ou vends sur WARET GOLD ?",
+    "value6": "Comme tout revendeur de métaux précieux, nous facturons une marge (également appelée \"prime\") sur chaque produit, c'est la partie du prix qui couvre nos coûts et la marge du revendeur. Cette marge est déjà incluse dans les prix que vous voyez dans notre boutique. Pour mieux comprendre le prix d'un produit, il suffit de cliquer dessus pour voir un détail complet. Tout produit que vous stockez chez nous est entièrement assuré contre la perte, le vol et les dommages, gratuitement. Le stockage est également gratuit jusqu'à une valeur de stockage de CHF 10 000, et si vous souhaitez stocker des quantités plus importantes, vous ne payez qu'un frais fixe de CHF 8 par mois jusqu'à une valeur de stockage de CHF 100 000. Et c'est tout. Ce sont les seuls frais que nous facturons sur WARET GOLD. À la revente, nous ne prenons aucuns frais ni commission et offrons un rachat instantané, au prix du marché, pour tous les produits que vous stockez chez nous. Cela signifie que nous vous paierons le prix du marché complet pour votre produit, à tout moment où vous souhaitez vendre. Vous pouvez en savoir plus sur cette solution de stockage sur notre page de solution de stockage.",
+    "head7": "Pourquoi devrais-je épargner en or en 2024 ?",
+    "value7": "Bien que le prix de l'or ait connu des fluctuations en 2021, il a augmenté de plus de 60 % au cours des 5 dernières années, et l'or a historiquement bien performé en période d'inflation et d'incertitude économique. Aujourd'hui, les investisseurs achètent souvent de l'or pour deux raisons. D'abord, pour sécuriser leurs économies plutôt que de laisser leur argent sur un compte d'épargne être grignoté par l'inflation. Ensuite, pour diversifier leur portefeuille et le protéger contre les risques qu'ils pourraient prendre ailleurs (actions, cryptomonnaies, immobilier, etc.). De nombreux acheteurs choisissent également d'épargner de l'or régulièrement pour lisser les fluctuations de prix qui peuvent se produire à court et moyen terme. Épargner en or est un moyen de sécuriser vos économies et de construire une richesse à long terme. Pour en savoir plus sur l'épargne, les investissements et les métaux précieux, visitez notre blog et abonnez-vous à notre newsletter éducative !"
+  },
+  "Whatsnew": {
+    "title": "Quoi de neuf cette semaine ?",
+    "sub": "Découvrez ce qui stimule les marchés et l'économie et comment sécuriser vos économies en investissant dans l'or, l'argent et les métaux précieux.",
+    "lkn1": "Découvrez notre blog",
+    "pt1title": "Utilisations de l'or : Comment l'or est utilisé et comment il impacte les prix de l'or",
+    "pt1desc": "De la monnaie aux ordinateurs, il existe de nombreuses applications réelles de l'or en dehors de son utilisation principale en tant que monnaie. Mais comment les utilisations courantes de l'or impactent-elles les prix de l'or ? Découvrons-le.",
+    "pt2title": "L'investissement dans l'or est-il réservé aux riches ?",
+    "pt2desc": "Dépassé, coûteux et élitiste : les jeunes investisseurs et ceux aux revenus plus modestes ont tendance à négliger l'or... et ils se trompent ! Démystifions les idées fausses sur l'investissement...",
+    "pt3title": "Un guide complet sur les impôts sur l'investissement : Ce que les épargnants...",
+    "pt3desc": "Tout ce que vous devez savoir sur les impôts sur l'investissement sur les actions, la cryptomonnaie et les métaux précieux lors de la construction de votre portefeuille d'investissement et d'épargne."
   }
 }
